@@ -7,9 +7,9 @@
 	# Joaquin Ordieres Mere.			#	
 	# mail: joaquin.ordieres@dim.unirioja.es	#
 	# Francisco Javier de Cos Juez			#
-	# mail: francisco-javier.de-cos@dim.unirioja.es	#
+	# mail: decos@api.uniovi.es	                #
 	# Francisco Javier Martinez de Pison		#
-	# mail: francisco.martinez@dim.unirioja.es	#
+	# mail: fjmartin@dim.unirioja.es	        #
 	#################################################
 
 # This function creates a SNNS pattern file 
@@ -18,29 +18,29 @@
 write.snns <- function(x,file="", noutputs=1)
 {
  file.create(file)
- cat(" SNNS pattern definition file v3.2\n", file=file, append=T)
- cat(paste("  generated at ",date(),"\n\n\n\n\n\n\n"), file=file, append=T)
- cat(paste(" No. of patterns      :",nrow(x),"\n"), file=file, append=T)
- cat(paste(" No. of input units   :",ncol(x)-noutputs,"\n"), file=file, append=T)
- cat(paste(" No. of output units  :",noutputs,"\n\n"), file=file, append=T)
+ cat(" SNNS pattern definition file v3.2\n", file=file, append=TRUE)
+ cat(paste("  generated at ",date(),"\n\n\n\n\n\n\n"), file=file, append=TRUE)
+ cat(paste(" No. of patterns      :",nrow(x),"\n"), file=file, append=TRUE)
+ cat(paste(" No. of input units   :",ncol(x)-noutputs,"\n"), file=file, append=TRUE)
+ cat(paste(" No. of output units  :",noutputs,"\n\n"), file=file, append=TRUE)
  for (i in 1:nrow(x))
    {
       
-      cat(paste("\n#",i,"\n"), file=file, append=T)
+      cat(paste("\n#",i,"\n"), file=file, append=TRUE)
       numcol <- ncol(x)
       while( numcol >10)
          {
             line <- as.character(x[i,1])
             for(j in 2:10)
               line <- paste(line,x[i,j])
-            cat(line, file=file, append=T)
-            cat("\n", file=file, append=T)
+            cat(line, file=file, append=TRUE)
+            cat("\n", file=file, append=TRUE)
             numcol <- numcol - 10
          }
       line <- as.character(x[i,1])
       for(j in 2:numcol)
         line <- paste(line,x[i,j])
-      cat(line, file=file, append=T)
-      cat("\n", file=file, append=T)
+      cat(line, file=file, append=TRUE)
+      cat("\n", file=file, append=TRUE)
    }
 }

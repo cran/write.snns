@@ -32,13 +32,13 @@ The function returns no value.
 \author{
 Manuel Castejon Limas. \email{manuel.castejon@dim.unirioja.es}\cr
 Joaquin Ordieres Mere. \email{joaquin.ordieres@dim.unirioja.es}\cr
-Francisco Javier de Cos Juez. \email{francisco-javier.de-cos@dim.unirioja.es}\cr
-Francisco Javier Martinez de Pison. \email{francisco.martinez@dim.unirioja.es}
+Francisco Javier de Cos Juez. \email{decos@api.uniovi.es}\cr
+Francisco Javier Martinez de Pison. \email{fjmartin@dim.unirioja.es}
 }
 
 \references{
 SNNS - Stuttgart Neural Network Simulator V4.1 Manual \url{http://www-ra.informatik.uni-tuebingen.de/SNNS/}
-
+}
 \examples{
 x <- data.frame(x=c(1.4, 3.6, 4.7, 5.3), y=c(1.7, 3.5, 2.5, 9.4))
 x
