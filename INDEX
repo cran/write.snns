@@ -1,0 +1,1 @@
+write.snns                Function for writing a SNNS pattern file from a data.frame or matrix.
