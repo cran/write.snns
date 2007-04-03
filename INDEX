@@ -1,1 +1,1 @@
-write.snns                Function for writing a SNNS pattern file from a data.frame or matrix.
+write.snns              Interfacing SNNS pattern files.

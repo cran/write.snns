@@ -30,7 +30,7 @@ It can be useful to compare the results obtained with regression models with tho
 The function returns no value.
 }
 \author{
-Manuel Castejon Limas. \email{manuel.castejon@dim.unirioja.es}\cr
+Manuel Castejon Limas. \email{manuel.castejon@unileon.es}\cr
 Joaquin Ordieres Mere. \email{joaquin.ordieres@dim.unirioja.es}\cr
 Francisco Javier de Cos Juez. \email{decos@api.uniovi.es}\cr
 Francisco Javier Martinez de Pison. \email{fjmartin@dim.unirioja.es}

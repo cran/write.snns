@@ -1,9 +1,8 @@
 	#################################################
-	# write.snns.R (v0.0-2) 27-12-2000	 	#
-	# University of La Rioja (SPAIN) 		#
+	# write.snns.R (v0.0-4.2) 2007/04/03	 	#
 	# Authors: 			 		#
 	# Manuel Castejon Limas.			#
-	# mail: manuel.castejon@dim.unirioja.es  	#
+	# mail: manuel.castejon@unileon.es       	#
 	# Joaquin Ordieres Mere.			#	
 	# mail: joaquin.ordieres@dim.unirioja.es	#
 	# Francisco Javier de Cos Juez			#

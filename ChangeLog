@@ -1,5 +1,7 @@
+Tue Apr 03 16:00:00 2007
+	* DESCRIPTION (Version): Version is 0.0-4.2.
+	* Mantainer email addressed updated.
 Tue Jul 16 12:00:00 2002
-
 	* DESCRIPTION (Version): Version is 0.0-4.
 	* write.snns.Rd file sintax corrected, now complying R CMD check perfectly (version 1.5.0).
 
